@@ -4,7 +4,8 @@
   "description": "vue stack for prototyping ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install && vue-cli"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/kwaledesign/vue-stack/issues"
   },
-  "homepage": "https://github.com/kwaledesign/vue-stack#readme"
+  "homepage": "https://github.com/kwaledesign/vue-stack#readme",
+  "dependencies": {
+    "axios": "0.16.2",
+    "lodash": "4.17.4",
+    "vue": "2.4.2",
+    "vue-cli": "2.8.2",
+    "vue-router": "2.7.0"
+  }
 }
